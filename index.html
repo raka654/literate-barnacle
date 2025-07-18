@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selamat Ulang Tahun</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #ffccff, #ccffff);
+      text-align: center;
+      padding: 30px;
+      animation: fadeIn 2s ease-in;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #ff1493;
+      margin-bottom: 10px;
+      text-shadow: 1px 1px 3px #00000055;
+    }
+
+    p {
+      font-size: 1.3em;
+      color: #333;
+    }
+
+    .foto {
+      margin-top: 20px;
+    }
+
+    img {
+      width: 300px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px #ff69b4;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.05);
+      }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    audio {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎉 Selamat Ulang Tahun! 🎉</h1>
+  <p>Semoga panjang umur, sehat selalu, dan banyak rezeki!</p>
+
+  <div class="foto">
+    <img src="foto-ulangtahun.jpg" alt="Foto Ulang Tahun">
+  </div>
+
+  <audio autoplay loop controls>
+    <source src="https://www.bensound.com/bensound-music/bensound-happyrock.mp3" type="audio/mpeg">
+    Browser kamu tidak mendukung audio.
+  </audio>
+</body>
+</html>
